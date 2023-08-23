@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <launch>
 
+  <!-- <remap from="/natnet_ros/RigidBody/pose" to="/mavros/vision_pose/pose"/> -->
   <!-- LOGGING -->
   <arg name="log_internals" default="false"/>
   <arg name="log_frames" default="false"/>
   <arg name="log_latencies" default="false"/>
 
   <!-- CONNECTION -->
-  <arg name="serverIP" default="10.0.0.202"/>
+  <arg name="serverIP" default="10.0.0.26"/>
   <arg name="clientIP" default="10.0.0.143"/>
   <arg name="serverType" default="multicast"/>
   <arg name="multicastAddress" default="239.255.42.99"/>
