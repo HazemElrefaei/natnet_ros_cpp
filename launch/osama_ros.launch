@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-  <remap from="/natnet_ros/RigidBody/pose" to="/mavros/vision_pose/pose"/>
+  <!--remap from="/natnet_ros/RigidBody/pose" to="/mavros/vision_pose/pose"/-->
   <!-- LOGGING -->
   <arg name="log_internals" default="false"/>
   <arg name="log_frames" default="false"/>
