@@ -9,7 +9,7 @@
 
   <!-- CONNECTION -->
   <arg name="serverIP" default="10.0.0.26"/>
-  <arg name="clientIP" default="10.0.0.143"/>
+  <arg name="clientIP" default="10.0.0.144"/>
   <arg name="serverType" default="multicast"/>
   <arg name="multicastAddress" default="239.255.42.99"/>
   <arg name="serverCommandPort" default="1510"/>
